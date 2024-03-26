@@ -30,7 +30,7 @@ virtualenv env
 
 --> Activate the virtual environment :
 ```bash
-envname\scripts\activate
+env\scripts\activate
 
 ```
 
