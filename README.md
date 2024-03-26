@@ -24,7 +24,7 @@ cd StudyBud
 pip install virtualenv
 
 # Then we create our virtual environment
-virtualenv envname
+virtualenv env
 
 ```
 
@@ -39,7 +39,14 @@ envname\scripts\activate
 pip install -r requirements.txt
 
 ```
+--> Create a super user in admin page :
 
+``` bash
+python manage.py migrate --run-syncdb
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+```
 #
 
 ### Running the App
