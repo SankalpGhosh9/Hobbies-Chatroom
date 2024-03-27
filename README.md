@@ -1,20 +1,20 @@
 <div align="center">
-<img width="30%" src="https://user-images.githubusercontent.com/72341453/134747028-7e2d90cc-a92f-4f66-815e-54a0d50cca54.PNG">
 
-# StudyBuddy
+
+# Hobbies-Chatroom
 </div>
 
 ### Cloning the repository
 
 --> Clone the repository using the command below :
 ```bash
-git clone https://github.com/divanov11/StudyBud.git
+https://github.com/SankalpGhosh9/Hobbies-Chatroom.git
 
 ```
 
 --> Move into the directory where we have the project files : 
 ```bash
-cd StudyBud
+cd Hobbies-Chatroom
 
 ```
 
@@ -24,13 +24,13 @@ cd StudyBud
 pip install virtualenv
 
 # Then we create our virtual environment
-virtualenv envname
+virtualenv env
 
 ```
 
 --> Activate the virtual environment :
 ```bash
-envname\scripts\activate
+env\scripts\activate
 
 ```
 
@@ -39,7 +39,14 @@ envname\scripts\activate
 pip install -r requirements.txt
 
 ```
+--> Create a super user in admin page :
 
+``` bash
+python manage.py migrate --run-syncdb
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+```
 #
 
 ### Running the App
