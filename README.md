@@ -82,4 +82,5 @@ python manage.py runserver
 </td>
 </table>
 
-
+#For detailed - information do visit our blogpost
+<a href="https://medium.com/@sankalp09ghosh/setting-up-django-website-hobbies-chatroom-using-aws-services-8fb42e0ee2c1">Setting up Django Website (Hobbies Chatroom) with AWS Services</a>
